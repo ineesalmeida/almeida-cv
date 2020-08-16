@@ -1,4 +1,4 @@
-
+{{ if .Site.Data.content.BasicInfo.Contacts }}
 <div class="sideSection contact">
     <ul>
         {{ range .Site.Data.content.BasicInfo.Contacts }}
@@ -6,3 +6,4 @@
         {{ end }}
     </ul>
 </div>
+{{ end }}
