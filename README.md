@@ -1,7 +1,7 @@
 # cv-almeida
 Theme to build a customizeable printable HTML/CSS CV.
 
-![Screenshot](images/screenshot_full.png)
+![Screenshot](images/screenshot-full.png)
 
 # Features
  - Online CV with minor responsiveness
