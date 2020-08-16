@@ -7,6 +7,17 @@
         width: $width-left-col;
         height: 100%;
         padding: 3rem 4rem;
+
+        @media print {
+            &::after{
+                content: "2020 © by Inês Almeida   |   ines-almeida.com";
+                height: 4rem;
+                width: 100%;
+                position: absolute;
+                bottom: 0.5rem;
+                color: $color-grey;
+            }
+        }
     }
 
     &__right {
