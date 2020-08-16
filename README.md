@@ -1,4 +1,4 @@
-# cv-almeida
+# Almeida CV Theme
 Theme to build a customizeable printable HTML/CSS CV.
 
 ![Screenshot](images/screenshot-full.png)
@@ -8,20 +8,20 @@ Theme to build a customizeable printable HTML/CSS CV.
  - Printable as A4 PDF
 
 # Download 
-Clone the repo: `git clone https://github.com/ineesalmeida/cv-almeida`
+Clone the repo: `git clone https://github.com/ineesalmeida/almeida-cv`
 
 # Installation
 ## Install Hugo
-To use cv-almeida theme you need to install Hugo by following https://gohugo.io/getting-started/installing/.
+To use almeida-cv theme you need to install Hugo by following https://gohugo.io/getting-started/installing/.
 
 ## Create your personal website and run
 ```
 hugo new site <your website's name>
 cd <your website's name>/themes/
 ```
-Clone the theme (`git clone https://github.com/ineesalmeida/cv-almeida`).
-Replace the "config.toml" file that in the project's root directory with `themes/cv-almeida/exampleSite/config.toml`.
-Replace the "content.yaml" file that in the project's root directory with `themes/cv-almeida/exampleSite/data/content.yaml`.
+Clone the theme (`git clone https://github.com/ineesalmeida/almeida-cv`).
+Replace the "config.toml" file that in the project's root directory with `themes/almeida-cv/exampleSite/config.toml`.
+Replace the "content.yaml" file that in the project's root directory with `themes/almeida-cv/exampleSite/data/content.yaml`.
 ```
 hugo server -D
 ```

@@ -1,7 +1,7 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Example - CV"
-theme = "cv-almeida"
+theme = "almeida-cv"
 
 [params]
 colorPrimary = "#e3bfb8"

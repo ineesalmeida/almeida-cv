@@ -1,11 +1,11 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "CV Almeida"
+name = "Almeida CV"
 license = "MIT"
-licenselink = "https://github.com/ineesalmeida/cv-almeida/master/LICENSE"
+licenselink = "https://github.com/ineesalmeida/almeida-cv/master/LICENSE"
 description = "Theme to build a customizeable printable CV with minor web responsiveness."
-homepage = "https://github.com/ineesalmeida/cv-almeida/master"
+homepage = "https://github.com/ineesalmeida/almeida-cv/master"
 tags = ["cv", "resume", "minimal", "simple"]
 features = ["simple", "cv", "printable"]
 min_version = "0.41.0"
