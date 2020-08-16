@@ -1,0 +1,30 @@
+.avatar {
+    width: 100%;
+    height: $width-right-col - 6rem;
+    position: relative;
+    overflow: hidden;
+
+    &__container {
+        @include hz-center;
+        width: 100%;
+        clip-path: circle(50% at 50% 56%);
+        height: $width-right-col - 8rem;
+        text-align: center;
+        transition: all 0.3s cubic-bezier($cubic);
+
+        &:hover {
+            width: 110%;
+        }
+    }
+
+    &__img {
+        object-fit: cover;
+        width: 110%;
+        transition: all 0.3s cubic-bezier($cubic);
+        @include all-center;
+
+        &:hover {
+            width: 105%;
+        }
+    }
+}

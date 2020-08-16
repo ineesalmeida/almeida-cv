@@ -1,0 +1,15 @@
+.language {
+    &__item {
+        display: table;
+        width: 100%;
+    }
+
+    &__name,
+    &__level {
+        display: table-cell;
+        width: 50%;
+    }
+    &__level {
+        text-align: right;
+    }
+}

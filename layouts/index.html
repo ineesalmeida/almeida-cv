@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "head.html" . }}
+<body>
+    <div class="content">
+        <div class="content__left">
+            <h1 class="mainHeading">{{.Site.Data.content.BasicInfo.FirstName}} <span>{{.Site.Data.content.BasicInfo.LastName}}</span></h1>
+
+            {{ partial "_profile.html" . }}
+            {{ partial "_experience.html" . }}
+            {{ partial "_education.html" . }}
+
+        </div>
+        <div class="content__right">
+
+            {{ partial "_avatar.html" . }}
+            {{ partial "_contacts.html" . }}
+            {{ partial "_skills.html" . }}
+            {{ partial "_languages.html" . }}
+            {{ partial "_diplomas.html" . }}
+            {{ partial "_interests.html" . }}
+        </div>
+    </div>
+</body>
+</html>

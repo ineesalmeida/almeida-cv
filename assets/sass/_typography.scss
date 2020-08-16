@@ -1,0 +1,27 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 1.12rem;
+    color: $color-grey-dark;
+}
+
+.mainHeading {
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: $color-grey;
+
+    & span {
+        color: $color-primary;
+    }
+}
+
+.section__title {
+    font-size: 2.1rem;
+    color: $color-grey;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}

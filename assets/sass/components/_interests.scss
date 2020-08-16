@@ -1,0 +1,11 @@
+.interests {
+    display: block;
+    -moz-column-count: 2;
+    column-count: 2;
+    width: 100%;
+    text-align: right;
+
+    &__item:nth-child(n+4) {
+        text-align: left;
+    }
+}

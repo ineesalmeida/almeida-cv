@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: $color-background;
+    
+    @media print {background-color: $color-white;}
+}
+
+.content {
+    // A4 paper
+    width: $page-width;
+    min-height: paper_height($page-width);
+    background-color: $color-white;
+
+    @media screen and (min-width: 60rem) {
+        margin: 6rem 0;
+        @include shadow(1);
+        @include hz-center;
+    }
+    @media print {margin: 0;}
+}
+
+body {
+    box-sizing: border-box;
+}
+
+@media print {
+    @page { 
+        margin: 0; 
+        size: A4;
+    }
+}
+
+::selection {
+	color: $color-white;
+	background-color: darken(rgba($color-primary, 0.6), 10%);
+}

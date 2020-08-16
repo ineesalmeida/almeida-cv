@@ -1,0 +1,38 @@
+.sideSection {
+    display: block;
+    margin-bottom: 3rem;
+
+    &__heading {
+        width:100%;
+        overflow: hidden;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        position: relative;
+
+        &::after,
+        &::before {
+            content: "";
+            position: absolute;
+            border-top: 1px solid $color-grey;
+            border-bottom: 1px solid $color-grey;
+            width: 10rem;
+            height: 4px;
+            margin-top: 1.1rem;
+        }
+
+        &::after{
+            margin-left: 1rem;
+        }
+
+        &::before{
+            margin-left: -11rem;
+        }
+    }
+
+    & li {
+        list-style: none;
+    }
+}

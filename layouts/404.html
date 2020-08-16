@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "head.html" . }}
+<body>
+    <div class="content">
+        <div class="pageNotFound">
+            <h1>Page not found :(</h1>
+            <p class="pageNotFound__text">
+                You're an explorer, aren't ya?<br>
+                But the page you are attempting to access cannot be found.<br>
+                Go back to the <a href="{{ "/" | relURL }}">main page</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

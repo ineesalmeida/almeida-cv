@@ -1,0 +1,35 @@
+.skills {
+    &__group {
+        & span {
+            font-weight: 700;
+            display: inline-block;
+
+            &::after{
+                content: ":"
+            }
+
+            &:hover ~ li {
+                background-color: $color-primary;
+                color: $color-white;
+            }
+
+        }
+
+        & li{
+            display: inline-block;
+            font-weight: 400;
+            transition: all 0.2s ease-in-out;
+            padding: 0 1px;
+            border-radius: 2px;
+
+            &:not(:last-child)::after{
+                content: ", "
+            }
+
+            &:hover {
+                background-color: $color-primary;
+                color: $color-white;
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.pageNotFound {
+    padding-top: 8rem;
+    @include hz-center;
+    
+    &__text {
+        padding-top: 3rem;
+    }
+}

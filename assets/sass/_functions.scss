@@ -1,0 +1,3 @@
+@function paper_height($width) {
+    @return $width / 0.70695553;
+}

@@ -1,0 +1,14 @@
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">
+            Diplomas
+        </h2>
+    </div>
+    <div class="sideSection__content">
+        <ul>
+            {{ range .Site.Data.content.Diplomas }}
+                <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</div>

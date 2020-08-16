@@ -1,0 +1,30 @@
+.section {
+    display: block;
+    margin-bottom: 2rem;
+
+    &__heading {
+        width:100%;
+        overflow: hidden;
+    }
+
+    &__title {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-color: $color-grey;
+            width: 50rem;
+            height: 4px;
+            margin-left: 1.5rem;
+            margin-top: 1.5rem;
+            transition: all 0.5s ease-in-out;
+        }
+
+        &:hover::after {
+            border-color: $color-primary;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">
+            Languages
+        </h2>
+    </div>
+    <div class="sideSection__content">
+        <ul class="language">
+            {{ range .Site.Data.content.Languages }}
+                <li class="language__item"><div class="language__name">{{ .Name }}</div><div class="language__level">{{ .Level }}</div></li>
+            {{ end }}
+        </ul>
+    </div>
+</div>

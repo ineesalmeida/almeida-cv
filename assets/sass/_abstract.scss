@@ -1,0 +1,13 @@
+// COLORS 
+$color-white: #fff;
+$color-grey: #aaa;
+$color-grey-2: #999;
+$color-grey-dark: #666;
+
+// WIDTHS 
+$width-left-col: 56rem;  // 70%
+$page-width: 80rem;
+$width-right-col: $page-width - $width-left-col;
+
+// ANIMATIONS
+$cubic: .63, .21, .76, 1.58

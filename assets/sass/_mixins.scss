@@ -1,0 +1,24 @@
+@mixin shadow($distance) {
+    -webkit-box-shadow: $distance * 1rem $distance * 2rem $distance * 3rem rgba($color-grey-dark, $distance * 0.3);
+    -moz-box-shadow: $distance * 1rem $distance * 2rem $distance * 3rem rgba($color-grey-dark, $distance * 0.3);
+    box-shadow: $distance * 1rem $distance * 2rem $distance * 3rem rgba($color-grey-dark, $distance * 0.3);
+}
+
+@mixin hz-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin vt-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin all-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

@@ -1,0 +1,24 @@
+.contact {
+    line-height: 2rem;
+
+    &__item {
+        position: relative;
+        font-size: 1rem;
+
+        & > i {
+            background-color: $color-primary;
+            color: $color-primary-text;
+            font-size: 1rem;
+            text-align: center;
+            border-radius: 50%;
+            padding-top: 0.5rem;
+            width: 2rem;
+            height: 2rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        & > span {
+            @include vt-center;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+// HUGO variables
+$color-primary: {{ .Site.Params.colorPrimary | default "#e3bfb8"}} !default;
+$color-primary-text: {{ .Site.Params.colorPrimaryText | default "#fff"}} !default;
+$color-background: {{ .Site.Params.colorPageBackground | default "#ddd" }} !default;
+$color-right-col: {{ .Site.Params.colorRightColumnBackground | default "#f5f5f5" }} !default;
+
+@import "abstract";
+@import "functions";
+@import "mixins";
+@import "layout";
+@import "base";
+@import "typography";
+
+@import "components/section";
+@import "components/side_section";
+@import "components/experience";
+@import "components/contact";
+@import "components/avatar";
+@import "components/skills";
+@import "components/languages";
+@import "components/interests";
+
+@import "components/404";
