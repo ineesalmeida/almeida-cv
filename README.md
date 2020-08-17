@@ -6,6 +6,15 @@ Theme to build a customizeable printable HTML/CSS CV.
 # Features
  - Online CV with minor responsiveness
  - Printable as A4 PDF
+ - HTML5 + CSS3
+ - Customizeable colors
+
+## Print your PDF CV
+When printing the page in the browser, you'll get a formatted A4 page that can be used as your PDF resume. 
+If your page holds more than 1 A4 page, the content will be divided into the given amount of pages.
+
+For better formatting, you can set the number of pages in the `config.toml` file.
+
 
 # Download 
 Clone the repo: `git clone https://github.com/ineesalmeida/almeida-cv`
@@ -19,17 +28,17 @@ To use almeida-cv theme you need to install Hugo by following https://gohugo.io/
 hugo new site <your website's name>
 cd <your website's name>/themes/
 ```
-Clone the theme (`git clone https://github.com/ineesalmeida/almeida-cv`).
-Replace the "config.toml" file that in the project's root directory with `themes/almeida-cv/exampleSite/config.toml`.
-Replace the "content.yaml" file that in the project's root directory with `themes/almeida-cv/exampleSite/data/content.yaml`.
+Clone the theme (`git clone https://github.com/ineesalmeida/almeida-cv`) into your themes folder.
+Replace the files in your root's directory with the ones on `themes/almeida-cv/exampleSite`.
 ```
 hugo server -D
 ```
-The theme is alive on http://localhost:1313/ 
+The theme is alive on http://localhost:1313/.
 
 ## Customization
-You can change the theme colors in the `config.toml` file.
+You can change the theme colors and number of pages in the `config.toml` file.
 Your professional data should be added in the `data/content.yaml`.
+
 
 # Building 
 To generate your site in the public folder, execute the following:
@@ -42,5 +51,6 @@ within the root of your project.
 # Contributing 
 Post bugs and contributions to the issue tracker. Or make a pull request.
 
+
 # License 
-This template is 100% FREE as long as you keep the footer attribution link. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work. If you’d like to use this template without the footer attribution link, you can buy the commercial license. Send an email to contact@ines-almeida.com.
+This template is 100% FREE as long as you keep the footer attribution link (which is NOT visible when you print you PDF CV). You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work. If you’d like to use this template without the footer attribution link, you can buy the commercial license. Send an email to contact@ines-almeida.com.

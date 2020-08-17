@@ -1,7 +1,10 @@
 .experience {
     &__item {
         display: block;
-        margin-bottom: 1.5rem;
+        @include avoid-break;
+        &:not(:first-child) {
+            padding-top: 1.5rem;
+        }
     }
 
     &__header,

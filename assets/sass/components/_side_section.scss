@@ -1,6 +1,7 @@
 .sideSection {
     display: block;
     margin-bottom: 3rem;
+    @include avoid-break;
 
     &__heading {
         width:100%;

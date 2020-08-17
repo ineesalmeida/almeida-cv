@@ -4,6 +4,7 @@
     column-count: 2;
     width: 100%;
     text-align: right;
+    @include avoid-break;
 
     &__item:nth-child(n+4) {
         text-align: left;

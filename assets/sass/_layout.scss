@@ -8,7 +8,7 @@
         height: 100%;
         padding: 3rem 4rem;
 
-        @media print {
+        @media screen {
             &::after{
                 content: "2020 © by Inês Almeida   |   ines-almeida.com";
                 height: 4rem;

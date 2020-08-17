@@ -15,6 +15,7 @@ $color-right-col: {{ .Site.Params.colorRightColumnBackground | default "#f5f5f5"
 @import "components/section";
 @import "components/side_section";
 @import "components/experience";
+@import "components/education";
 @import "components/contact";
 @import "components/avatar";
 @import "components/skills";
