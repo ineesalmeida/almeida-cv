@@ -1,14 +1,12 @@
 {{ if .Site.Data.content.Diplomas }}
 <div class="sideSection">
     <div class="sideSection__heading">
-        <h2 class="sideSection__title">
-            Diplomas
-        </h2>
+        <h2 class="sideSection__title">Diplomas</h2>
     </div>
     <div class="sideSection__content">
         <ul>
             {{ range .Site.Data.content.Diplomas }}
-                <li>{{ . }}</li>
+            <li>{{ . | safeHTML }}</li>
             {{ end }}
         </ul>
     </div>

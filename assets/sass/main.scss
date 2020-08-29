@@ -4,6 +4,10 @@ $color-primary: {{ .Site.Params.colorPrimary | default "#e3bfb8"}} !default;
 $color-primary-text: {{ .Site.Params.colorPrimaryText | default "#fff"}} !default;
 $color-background: {{ .Site.Params.colorPageBackground | default "#ddd" }} !default;
 $color-right-col: {{ .Site.Params.colorRightColumnBackground | default "#f5f5f5" }} !default;
+$color-white: {{ .Site.Params.colorLight | default "#fff"}} !default;
+$color-secondary: {{ .Site.Params.colorSecondary | default "#aaa"}} !default;
+$color-grey-dark: {{ .Site.Params.colorDark | default "#666"}} !default;
+$pages: {{ .Site.Params.pages | default 1}} !default;
 
 @import "abstract";
 @import "functions";

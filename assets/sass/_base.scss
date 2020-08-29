@@ -9,8 +9,10 @@
 html {
     font-size: 62.5%;
     background-color: $color-background;
-    
-    @media print {background-color: $color-white;}
+
+    @media print {
+        background-color: $color-white;
+    }
 }
 
 .content {
@@ -24,7 +26,10 @@ html {
         @include shadow(1);
         @include hz-center;
     }
-    @media print {margin: 0;}
+    @media print {
+        margin: 0;
+        height: paper_height($page-width) * $pages;
+    }
 }
 
 body {
@@ -32,13 +37,13 @@ body {
 }
 
 @media print {
-    @page { 
-        margin: 0; 
+    @page {
+        margin: 0;
         size: A4;
     }
 }
 
 ::selection {
-	color: $color-white;
-	background-color: darken(rgba($color-primary, 0.6), 10%);
+    color: $color-white;
+    background-color: darken(rgba($color-primary, 0.6), 10%);
 }

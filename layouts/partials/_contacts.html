@@ -2,7 +2,9 @@
 <div class="sideSection contact">
     <ul>
         {{ range .Site.Data.content.BasicInfo.Contacts }}
-            <li class="contact__item"><i class="{{ .Icon }}"></i><span>{{ .Info }}</span></li>
+        <li class="contact__item">
+            <i class="{{ .Icon }}"></i><span>{{ .Info | safeHTML }}</span>
+        </li>
         {{ end }}
     </ul>
 </div>

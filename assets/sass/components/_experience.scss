@@ -31,7 +31,7 @@
     }
 
     &__company {
-        color: $color-grey-2;
+        color: $color-grey-dark;
     }
 
     &__position {
@@ -39,13 +39,13 @@
         font-size: 1.3rem;
         color: $color-grey-dark;
     }
-    
+
     &__date,
     &__place {
         float: right;
         text-align: right;
         width: 30%;
-        color: $color-grey;
+        color: $color-secondary;
     }
 
     &__date {
@@ -57,7 +57,7 @@
             font-family: 'Material Icons';
             color: $color-primary;
             font-size: 1.4rem;
-            content: "place";
+            content: 'place';
             display: inline-block;
             padding-right: 3px;
             vertical-align: middle;

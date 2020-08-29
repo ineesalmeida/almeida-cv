@@ -3,7 +3,7 @@
     margin-bottom: 2rem;
 
     &__heading {
-        width:100%;
+        width: 100%;
         overflow: hidden;
     }
 
@@ -11,11 +11,11 @@
         position: relative;
 
         &::after {
-            content: "";
+            content: '';
             position: absolute;
             border-top: 1px solid;
             border-bottom: 1px solid;
-            border-color: $color-grey;
+            border-color: $color-secondary;
             width: 50rem;
             height: 4px;
             margin-left: 1.5rem;
