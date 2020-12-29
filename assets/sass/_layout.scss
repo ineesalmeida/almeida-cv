@@ -24,11 +24,18 @@
         position: absolute;
         float: right;
         width: $width-right-col;
-        background-color: $color-right-col;
         height: 100%;
         padding: 2rem 3rem;
         right: 1rem;
 
-        @include shadow(0.5);
+        @media print {
+            border-left: 1px solid #e2e2e2;
+        }
+        
+        @media screen {
+            background-color: $color-right-col;
+            @include shadow(0.5);
+        }
+
     }
 }

@@ -28,7 +28,6 @@ html {
     }
     @media print {
         margin: 0;
-        height: paper_height($page-width) * $pages;
     }
 }
 
@@ -38,9 +37,9 @@ body {
 
 @media print {
     @page {
-        margin: 0;
+        margin: 12.5mm 0 25mm 0;
         size: A4;
-    }
+    }     
 }
 
 ::selection {
