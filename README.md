@@ -15,6 +15,7 @@ If your page holds more than 1 A4 page, the content will be divided into the giv
 
 For better formatting, you can set the number of pages in the `config.toml` file.
 
+If badges and other elements with background don't render correctly, remember to toggle the "Background Graphics" option in the print dialog.
 
 # Download 
 Clone the repo: `git clone https://github.com/ineesalmeida/almeida-cv`
