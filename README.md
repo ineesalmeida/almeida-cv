@@ -21,8 +21,8 @@ If badges and other elements with background don't render correctly, remember to
 Clone the repo: `git clone https://github.com/ineesalmeida/almeida-cv`
 
 # Installation
-## Install Hugo
-To use almeida-cv theme you need to install Hugo by following https://gohugo.io/getting-started/installing/.
+## Install Hugo (Extended)
+To use almeida-cv theme you need to install Hugo Extended by following https://gohugo.io/getting-started/installing/.
 
 ## Create your personal website and run
 ```
