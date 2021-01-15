@@ -1,5 +1,6 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
+defaultContentLanguage = "en"
 theme = "almeida-cv"
 title = "Example - CV"
 
