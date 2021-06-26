@@ -1,5 +1,3 @@
-
-// HUGO variables
 $color-primary: {{ .Site.Params.colorPrimary | default "#e3bfb8"}} !default;
 $color-primary-text: {{ .Site.Params.colorPrimaryText | default "#fff"}} !default;
 $color-background: {{ .Site.Params.colorPageBackground | default "#ddd" }} !default;
@@ -25,5 +23,6 @@ $pages: {{ .Site.Params.pages | default 1}} !default;
 @import "components/skills";
 @import "components/languages";
 @import "components/interests";
-
 @import "components/404";
+
+@import "custom";
