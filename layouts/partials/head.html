@@ -10,4 +10,9 @@
 
     {{- $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen" />
+
+    {{- if .Site.GoogleAnalytics }}
+        {{ template "_internal/google_analytics.html" . }}
+        {{ template "_internal/google_analytics_async.html" . }}
+    {{- end -}}
 </head>
