@@ -17,24 +17,24 @@ For better formatting, you can set the number of pages in the `config.toml` file
 
 If badges and other elements with background don't render correctly, remember to toggle the "Background Graphics" option in the print dialog.
 
-# Download
-Clone the repo: `git clone https://github.com/ineesalmeida/almeida-cv`
+# Usage
+## Install Hugo (extended)
+To use `almeida-cv` theme you need to install Hugo Extended by following https://gohugo.io/getting-started/installing/.
 
-# Installation
-## Install Hugo (Extended)
-To use almeida-cv theme you need to install Hugo Extended by following https://gohugo.io/getting-started/installing/.
-
-## Create your personal website and run
+## Create your personal website
 ```
 hugo new site <your website's name>
-cd <your website's name>/themes/
+cd <your website's name>
+git init
+git submodule add https://github.com/ineesalmeida/almeida-cv.git themes/almeida-cv
 ```
-Clone the theme (`git clone https://github.com/ineesalmeida/almeida-cv`) into your themes folder.
-Replace the files in your root's directory with the ones on `themes/almeida-cv/exampleSite`.
+Replace the files in your site root's directory with the ones in `themes/almeida-cv/exampleSite`.
+
+## Start Hugo in development mode
 ```
 hugo server -D
 ```
-The theme is alive on http://localhost:1313/.
+Your site is now available at http://localhost:1313/.
 
 ## Customization
 Your professional data should be added in the `data/content.yaml` file. You can change the theme colors and number of
@@ -43,10 +43,10 @@ pages in the `config.toml` file. For working example, see `exampleSite` director
 For more advanced customization, in your site root directory create `assets/scss/_custom.scss` file where you can
 overwrite theme SCSS as per your liking.
 
-# Building
-To generate your site in the public folder, execute the following:
+## Building
+To generate static files of your website, execute the following:
 ```
-hugo
+hugo --minify
 ```
 within the root of your project.
 
