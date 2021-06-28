@@ -1,7 +1,12 @@
-baseURL = "https://example.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
+enableRobotsTXT = "true"
+enableEmoji = "true"
+
 theme = "almeida-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+baseURL = "https://example.com/"
 title = "Example - CV"
 
 [params]
