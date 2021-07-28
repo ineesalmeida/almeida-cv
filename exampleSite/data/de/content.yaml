@@ -12,14 +12,14 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Portugal
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile: Deutscher Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 Experience:
-  - Employer: Super Cool Company
+  - Employer: Super Coole Firma
     Place: Oxford, UK
     Positions:
-      - Title: Software Engineer
-        Date: Jan 2020 - Present
+      - Title: Software Entwicklerin
+        Date: Jan 2020 - Jetzt
         Details:
           - Arcu vitae elementum curabitur vitae nunc sed velit
           - Viverra aliquet eget sit amet tellus cras adipiscing
@@ -28,14 +28,14 @@ Experience:
           - Sed viverra tellus in hac.
           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
         Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Tester
+      - Title: Software Testerin
         Date: Mar 2019 - Jan 2020
         Details:
           - Nisl tincidunt eget nullam non nisi est
           - Sed viverra tellus in hac.
           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
         Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
-  - Employer: Another super cool company
+  - Employer: Eine andere Supertolle Firma
     Place: Lisbon, PT
     Positions:
       - Title: Flow Cytometry Resource Specialist
