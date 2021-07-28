@@ -1,4 +1,4 @@
-{{ if .Site.Data.content.Education }}
+{{ if .Education }}
 <div id="education" class="section">
     <div class="section__heading">
         <h2 class="section__title">
@@ -6,7 +6,7 @@
         </h2>
     </div>
     <div class="section__content">
-        {{ range .Site.Data.content.Education }}
+        {{ range .Education }}
             <div class="education__item">
                 <h3 class="education__title">{{ .Course | safeHTML }}</h3>
                 <h4 class="education__place">{{ .Place | safeHTML }}</h4>

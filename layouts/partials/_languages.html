@@ -1,11 +1,11 @@
-{{ if .Site.Data.content.Languages }}
+{{ if .Languages }}
 <div class="sideSection">
     <div class="sideSection__heading">
         <h2 class="sideSection__title">{{ i18n "languages" }}</h2>
     </div>
     <div class="sideSection__content">
         <ul class="language">
-            {{ range .Site.Data.content.Languages }}
+            {{ range .Languages }}
             <li class="language__item">
                 <div class="language__name">{{ .Name | safeHTML }}</div>
                 <div class="language__level">{{ .Level | safeHTML }}</div>

@@ -1,10 +1,10 @@
-{{ if .Site.Data.content.Profile }}
+{{ if .Profile }}
 <div id="profile" class="section">
     <div class="section__heading">
         <h2 class="section__title">{{ i18n "profile" }}</h2>
     </div>
     <div class="section__content">
-        <p>{{.Site.Data.content.Profile | safeHTML }}</p>
+        <p>{{ .Profile | safeHTML }}</p>
     </div>
 </div>
 {{ end }}

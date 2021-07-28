@@ -1,11 +1,11 @@
-{{ if .Site.Data.content.Experience }}
+{{ if .Experience }}
 <div id="experience" class="section">
     <div class="section__heading">
         <h2 class="section__title">{{ i18n "experience" }}</h2>
     </div>
     <div class="section__content">
         <div class="experience">
-            {{ range .Site.Data.content.Experience }}
+            {{ range .Experience }}
             <div class="experience__item">
                 <div class="experience__header">
                     <h3 class="experience__company">

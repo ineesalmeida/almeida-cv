@@ -1,7 +1,7 @@
-{{ if .Site.Data.content.BasicInfo.Contacts }}
+{{ if .BasicInfo.Contacts }}
 <div class="sideSection contact">
     <ul>
-        {{ range .Site.Data.content.BasicInfo.Contacts }}
+        {{ range .BasicInfo.Contacts }}
         <li class="contact__item">
             <i class="{{ .Icon }}"></i><span>{{ .Info | safeHTML }}</span>
         </li>

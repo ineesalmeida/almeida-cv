@@ -1,7 +1,7 @@
-{{ if .Site.Data.content.BasicInfo.Photo }}
+{{ if .BasicInfo.Photo }}
     <div class="sideSection avatar">
         <div class="avatar__container">
-            <img class="avatar__img" src="{{ .Site.Data.content.BasicInfo.Photo }}" alt="photo of me">
+            <img class="avatar__img" src="{{ .BasicInfo.Photo }}" alt="photo of me">
         </div>
     </div>
 {{ end }}
