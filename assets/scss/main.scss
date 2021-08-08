@@ -1,10 +1,20 @@
+$color-light: {{ .Site.Params.colorLight | default "#fff"}} !default;
+$color-dark: {{ .Site.Params.colorDark | default "#666"}} !default;
+$color-page-background: {{ .Site.Params.colorPageBackground | default "#ddd" }} !default;
+
 $color-primary: {{ .Site.Params.colorPrimary | default "#e3bfb8"}} !default;
-$color-primary-text: {{ .Site.Params.colorPrimaryText | default "#fff"}} !default;
-$color-background: {{ .Site.Params.colorPageBackground | default "#ddd" }} !default;
-$color-right-col: {{ .Site.Params.colorRightColumnBackground | default "#f5f5f5" }} !default;
-$color-white: {{ .Site.Params.colorLight | default "#fff"}} !default;
+
 $color-secondary: {{ .Site.Params.colorSecondary | default "#aaa"}} !default;
-$color-grey-dark: {{ .Site.Params.colorDark | default "#666"}} !default;
+
+$color-icon-primary: {{ .Site.Params.colorIconPrimary | default "#fff"}} !default;
+$color-icon-background: {{ .Site.Params.colorIconBackground | default "#e3bfb8"}} !default;
+
+$color-right-col-background: {{ .Site.Params.colorRightColumnBackground | default "#f5f5f5" }} !default;
+$color-right-col-heading-text: {{ .Site.Params.colorRightColumnHeadingText | default "#666" }} !default;
+$color-right-col-body-text: {{ .Site.Params.colorRightColumnBodyText | default "#666" }} !default;
+$color-right-col-icon-primary: {{ .Site.Params.colorRightColumnIconPrimary | default "#fff" }} !default;
+$color-right-col-icon-background: {{ .Site.Params.colorRightColumnIconBackground | default "#e3bfb8" }} !default;
+
 $pages: {{ .Site.Params.pages | default 1}} !default;
 
 @import "abstract";
