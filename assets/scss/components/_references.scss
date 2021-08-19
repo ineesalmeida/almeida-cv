@@ -1,6 +1,7 @@
 .references {
     &__item {
-        display: block;
+        display: inline-block;
+        min-width: 49%;
         @include avoid-break;
         &:not(:first-child) {
             padding-top: 1.5rem;
@@ -11,7 +12,10 @@
     &__subheader {
         display: block;
         width: 100%;
-        height: 2.4rem;
+    }
+
+    &__subheader {
+        margin-bottom: 0.5rem;
     }
 
     &__person {
@@ -26,8 +30,7 @@
     &__name,
     &__relation {
         text-align: left;
-        width: 70%;
-        float: left;
+        width: 100%;
         color: $color-dark;
     }
 
@@ -49,6 +52,8 @@
         }
         & > span {
             @include vt-center;
+            min-height: 1.5rem;
+            line-height: 1.2rem;
         }
     }
 
