@@ -10,7 +10,7 @@
 
             &:hover ~ li {
                 background-color: $color-primary;
-                color: $color-white;
+                color: $color-light;
             }
 
         }
@@ -28,7 +28,7 @@
 
             &:hover {
                 background-color: $color-primary;
-                color: $color-white;
+                color: $color-light;
             }
         }
     }

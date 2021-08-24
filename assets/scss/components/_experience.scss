@@ -31,13 +31,13 @@
     }
 
     &__company {
-        color: $color-grey-dark;
+        color: $color-dark;
     }
 
     &__position {
         text-transform: uppercase;
         font-size: 1.3rem;
-        color: $color-grey-dark;
+        color: $color-dark;
     }
 
     &__date,
@@ -55,7 +55,7 @@
     &__place {
         &::before {
             font-family: 'Material Icons';
-            color: $color-primary;
+            color: $color-icon-background;
             font-size: 1.4rem;
             content: 'place';
             display: inline-block;
@@ -80,8 +80,8 @@
         font-size: 0.9rem;
         font-weight: 400;
         display: inline-block;
-        background-color: $color-primary;
-        color: $color-primary-text;
+        background-color: $color-icon-background;
+        color: $color-icon-primary;
         border-radius: 1rem;
         padding: 0.1rem 0.6rem;
     }
