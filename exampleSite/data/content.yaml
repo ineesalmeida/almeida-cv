@@ -64,6 +64,27 @@ Education:
     Date: Sep 2012 - Nov 2017
     Details: Specialised in data analysis
 
+References:
+  - Name: Person One
+    Relation: Co-worker at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 790
+    - Icon: fas fa-envelope
+      Info: contact@person-one.com
+    - Icon: fas fa-map-marker-alt
+      Info: Melbourne, Australia
+  - Name: Person Two
+    Relation: Boss at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 791
+    - Icon: fas fa-envelope
+      Info: contact@person-two.com
+    - Icon: fas fa-map-marker-alt
+      Info: Sydney, Australia
+
+
 Skills:
   - Family: Programming
     Items:

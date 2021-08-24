@@ -8,10 +8,10 @@
 
 html {
     font-size: 62.5%;
-    background-color: $color-background;
+    background-color: $color-page-background;
 
     @media print {
-        background-color: $color-white;
+        background-color: $color-light;
     }
 }
 
@@ -19,7 +19,7 @@ html {
     // A4 paper
     width: $page-width;
     min-height: paper_height($page-width);
-    background-color: $color-white;
+    background-color: $color-light;
 
     @media screen and (min-width: 60rem) {
         margin: 6rem 0;
@@ -44,6 +44,6 @@ body {
 }
 
 ::selection {
-    color: $color-white;
+    color: $color-light;
     background-color: darken(rgba($color-primary, 0.6), 10%);
 }

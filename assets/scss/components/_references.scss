@@ -1,0 +1,63 @@
+.references {
+    &__item {
+        display: inline-block;
+        min-width: 49%;
+        @include avoid-break;
+        &:not(:first-child) {
+            padding-top: 1.5rem;
+        }
+    }
+
+    &__header,
+    &__subheader {
+        display: block;
+        width: 100%;
+    }
+
+    &__subheader {
+        margin-bottom: 0.5rem;
+    }
+
+    &__person {
+        position: relative;
+        transition: transform 0.2s cubic-bezier($cubic);
+
+        &:hover {
+            transform: translateX(0.5rem);
+        }
+    }
+
+    &__name,
+    &__relation {
+        text-align: left;
+        width: 100%;
+        color: $color-dark;
+    }
+
+    &__contact {
+        position: relative;
+        font-size: 1rem;
+
+        & > i {
+            background-color: $color-icon-background;
+            color: $color-icon-primary;
+            font-size: 1rem;
+            text-align: center;
+            border-radius: 50%;
+            padding-top: 0.5rem;
+            width: 2rem;
+            height: 2rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        & > span {
+            @include vt-center;
+            min-height: 1.5rem;
+            line-height: 1.2rem;
+        }
+    }
+
+    & li {
+        list-style: none;
+    }
+}

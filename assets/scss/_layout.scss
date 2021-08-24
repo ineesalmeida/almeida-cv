@@ -15,7 +15,7 @@
                 width: 100%;
                 position: absolute;
                 bottom: 0.5rem;
-                color: darken($color-white, 10%);
+                color: darken($color-light, 10%);
             }
         }
     }
@@ -24,7 +24,8 @@
         position: absolute;
         float: right;
         width: $width-right-col;
-        background-color: $color-right-col;
+        background-color: $color-right-col-background;
+        color: $color-right-col-body-text;
         height: 100%;
         padding: 2rem 3rem;
         right: 1rem;

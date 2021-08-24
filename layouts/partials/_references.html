@@ -1,0 +1,32 @@
+{{ if .Site.Data.content.References }}
+<div id="references" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">{{ i18n "references" }}</h2>
+    </div>
+    <div class="section__content">
+        <div class="references">
+            {{ range .Site.Data.content.References }}
+            <div class="references__item">
+                <div class="references__person">
+                    <div class="references__header">
+                        <h3 class="references__name">
+                            {{ .Name | safeHTML}}
+                        </h3>
+                    </div>
+                    <div class="references__subheader">
+                        <h4 class="references__relation">
+                            {{ .Relation | safeHTML}}
+                        </h4>
+                    </div>
+                    {{ range .Contacts }}
+                        <li class="references__contact">
+                            <i class="{{ .Icon }}"></i><span>{{ .Info | safeHTML }}</span>
+                        </li>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

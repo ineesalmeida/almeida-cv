@@ -8,6 +8,7 @@
         overflow: hidden;
         text-align: center;
         margin-bottom: 1rem;
+        color: $color-right-col-heading-text;
     }
 
     &__title {
@@ -17,8 +18,8 @@
         &::before {
             content: '';
             position: absolute;
-            border-top: 1px solid $color-secondary;
-            border-bottom: 1px solid $color-secondary;
+            border-top: 1px solid $color-right-col-heading-text;
+            border-bottom: 1px solid $color-right-col-heading-text;
             width: 10rem;
             height: 4px;
             margin-top: 1.1rem;
