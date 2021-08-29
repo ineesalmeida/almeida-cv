@@ -1,7 +1,7 @@
 BasicInfo:
   FirstName: Inês
   LastName: Almeida
-  Photo: /img/avatar.jpg
+  Photo: img/avatar.jpg
   Contacts:
     - Icon: fas fa-phone
       Info: +44 123 456 789
