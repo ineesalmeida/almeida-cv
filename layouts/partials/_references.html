@@ -1,11 +1,11 @@
-{{ if .Site.Data.content.References }}
+{{ if .References }}
 <div id="references" class="section">
     <div class="section__heading">
         <h2 class="section__title">{{ i18n "references" }}</h2>
     </div>
     <div class="section__content">
         <div class="references">
-            {{ range .Site.Data.content.References }}
+            {{ range .References }}
             <div class="references__item">
                 <div class="references__person">
                     <div class="references__header">
