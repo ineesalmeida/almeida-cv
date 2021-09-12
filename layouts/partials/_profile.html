@@ -4,7 +4,7 @@
         <h2 class="section__title">{{ i18n "profile" }}</h2>
     </div>
     <div class="section__content">
-        <p>{{ .Profile | safeHTML }}</p>
+        <p>{{ .Profile | safeHTML | emojify }}</p>
     </div>
 </div>
 {{ end }}

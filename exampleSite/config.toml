@@ -1,15 +1,17 @@
 languageCode = "en-us"
 defaultContentLanguage = "en"
-enableRobotsTXT = "true"
-enableEmoji = "true"
+enableRobotsTXT = true
+enableEmoji = true
 
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 baseURL = "https://example.com/"
 title = "Example - CV"
+#googleAnalytics = ""
 
 [params]
+enableMetaTags = true
 colorLight = "#fff"
 colorDark = "#666"
 colorPageBackground = "#ddd"
