@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+._*
+
+# IDE
+.idea/
+.vscode/
+.settings/
+*.subliime-workspace
+*.sublime-project
