@@ -8,7 +8,7 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: contact@ines-almeida.com
     - Icon: fas fa-globe
-      Info: ines-almeida.com
+      Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
     - Icon: fas fa-map-marker-alt
       Info: Portugal
 
@@ -48,6 +48,7 @@ Experience:
         Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
   - Employer: Institute of Neural Engineering
     Place: Graz, AT
+    Class: "experience__extra_padding"
     Positions:
       - Title: Master's Thesis Research Intern
         Date: Oct 2016 - Jun 2017
