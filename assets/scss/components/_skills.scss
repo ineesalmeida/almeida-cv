@@ -1,5 +1,7 @@
 .skills {
     &__group {
+        margin-bottom: 0.8rem;
+
         & span {
             font-weight: 700;
             display: inline-block;
@@ -17,6 +19,7 @@
 
         & li{
             display: inline-block;
+            font-size: 105%;
             font-weight: 400;
             transition: all 0.2s ease-in-out;
             padding: 0 1px;

@@ -1,15 +1,32 @@
 .experience {
+    &__extra_padding {
+        padding-top: 4rem !important;
+    }
+
     &__item {
         display: block;
+        position: relative;
         @include avoid-break;
         &:not(:first-child) {
             padding-top: 1.5rem;
+        }
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        &::before {
+            content: "";
+            height: 90%;
+            width: 1.5px;
+            position: absolute;
+            background: linear-gradient($color-page-background, rgba(255, 255, 255, 0));
+            //background: linear-gradient(blue, red);
+            margin-top: 25px;
         }
     }
 
     &__header,
     &__subheader {
-        display: block;
+        display: flex;
         width: 100%;
         height: 2.4rem;
     }
@@ -17,6 +34,7 @@
     &__job {
         position: relative;
         transition: transform 0.2s cubic-bezier($cubic);
+        margin-bottom: 2rem;
 
         &:hover {
             transform: translateX(0.5rem);
@@ -38,6 +56,7 @@
         text-transform: uppercase;
         font-size: 1.3rem;
         color: $color-dark;
+        margin-left: 1rem;
     }
 
     &__date,
@@ -66,7 +85,8 @@
     }
 
     &__bullet {
-        list-style-position: inside;
+        list-style: square inside;
+        margin-left: 1rem;
     }
 
     &__badges {

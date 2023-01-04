@@ -21,4 +21,9 @@
             @include vt-center;
         }
     }
+
+    &__link {
+        text-decoration: none;
+        color: $color-dark;
+    }
 }

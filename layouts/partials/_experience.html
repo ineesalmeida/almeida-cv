@@ -6,7 +6,11 @@
     <div class="section__content">
         <div class="experience">
             {{ range .Experience }}
+            {{ if .Class }}
+            <div class="experience__item {{ .Class }}">
+            {{ else }}
             <div class="experience__item">
+            {{ end }}
                 <div class="experience__header">
                     <h3 class="experience__company">
                         {{ .Employer | safeHTML }}
@@ -23,7 +27,7 @@
                     </div>
                     <ul>
                         {{ range .Details }}
-                        <li class="experience__bullet">{{ . }}</li>
+                        <li class="experience__bullet">{{ . | safeHTML }}</li>
                         {{ end }}
                     </ul>
                     <div class="experience__badges">
