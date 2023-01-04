@@ -5,14 +5,22 @@
     {{ partial "head.html" . }}
 <body>
     <div class="content">
+        {{ if .Site.Params.swapColumns }}
+        <div class="content__left content__swapped__left">
+        {{ else }}
         <div class="content__left">
+        {{ end }}
             <h1 class="mainHeading">{{ $data.BasicInfo.FirstName }} <span>{{ $data.BasicInfo.LastName }}</span></h1>
             {{ partial "_profile.html" $data }}
             {{ partial "_experience.html" $data }}
             {{ partial "_education.html" $data }}
             {{ partial "_references.html" $data }}
         </div>
+        {{ if .Site.Params.swapColumns }}
+        <div class="content__right content__swapped__right">
+        {{ else }}
         <div class="content__right">
+        {{ end }}
             {{ partial "_avatar.html" $data }}
             {{ partial "_contacts.html" $data }}
             {{ partial "_skills.html" $data }}

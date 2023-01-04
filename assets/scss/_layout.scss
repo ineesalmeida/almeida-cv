@@ -32,4 +32,15 @@
 
         @include shadow(0.5);
     }
+
+    &__swapped {
+        &__left {
+            float: right;
+        }
+
+        &__right {
+            float: left;
+            left: 1rem;
+        }
+    }
 }
