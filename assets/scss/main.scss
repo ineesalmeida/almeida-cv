@@ -35,6 +35,6 @@ $pages: {{ .Site.Params.pages | default 1}} !default;
 @import "components/languages";
 @import "components/interests";
 @import "components/404";
-@import "components/certificates";
+@import "components/certifications";
 
 @import "custom";
