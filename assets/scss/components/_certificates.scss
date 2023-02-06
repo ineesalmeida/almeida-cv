@@ -1,0 +1,23 @@
+.certificates {
+    line-height: 2rem;
+
+    &__item {
+        position: relative;
+        font-size: 1rem;
+
+        & > img {
+            width: 3rem;
+            height: 3rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        & > span {
+            @include vt-center;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-dark;
+    }
+}
