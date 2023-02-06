@@ -1,0 +1,29 @@
+{{ if .Travel }}
+<div id="travel" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">Travel</h2>
+    </div>
+    <div class="section__content">
+        <div class="travel">
+            {{ range .Travel }}
+            <div class="travel__item">
+                <div class="travel__header">
+                    <h3 class="travel__place">
+                        {{ .Place | safeHTML }}
+                    </h3>
+                    <h3 class="travel__date">{{ .Date | safeHTML }}</h3>
+                </div>
+                <div class="travel__details">
+                    <ul>
+                        {{ range .Details }}
+                        <li class="travel__bullet">{{ . | safeHTML }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
+
