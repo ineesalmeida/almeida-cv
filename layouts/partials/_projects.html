@@ -1,0 +1,46 @@
+{{ if .Projects }}
+<div id="experience" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">Projects</h2>
+    </div>
+    <div class="section__content">
+        <div class="experience">
+            {{ range .Projects }}
+            <div class="experience__item">
+                <div class="experience__header">
+                    <h3 class="experience__company">
+                        {{ .Name | safeHTML }}
+                    </h3>
+                    <h3 class="experience__date">{{ .Date | safeHTML }}</h3>
+                </div>
+                <div class="projects__flex-container">
+                    <div class="projects__item">
+                        <i class="fab fa-github"></i>{{ .Github | safeHTML}}
+                    </div>
+
+                    {{ if .Url }}
+                    <div class="projects__item site">
+                        <i class="fas fa-globe"></i>{{ .Url | safeHTML}}
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="experience__job">
+                    <ul>
+                        {{ range .Details }}
+                        <li class="experience__bullet">{{ . | safeHTML }}</li>
+                        {{ end }}
+                    </ul>
+                    <div class="experience__badges">
+                        <ul>
+                            {{ range .Badges }}
+                            <li class="experience__badge">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
