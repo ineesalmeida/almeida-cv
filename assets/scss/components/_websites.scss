@@ -1,0 +1,10 @@
+.websites {
+    li {
+        margin-bottom: 1.6rem;
+    }
+    &__link {
+        text-decoration: none;
+        color: $color-dark;
+        font-style: italic;
+    }
+}

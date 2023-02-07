@@ -1,0 +1,18 @@
+{{ if .Projects }}
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">Websites</h2>
+    </div>
+    <div class="sideSection__content">
+        <ul class="websites">
+            {{ range .Projects }}
+            <li class="flex-container">
+                <div class="flex-item"><h3>{{ .Name }}</h3></div>
+                <div class="flex-item"><a class="websites__link" href="https://{{.Url}}">{{ .Url }}</a></div>
+                <div class="flex-item">{{ .Description }}</div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
