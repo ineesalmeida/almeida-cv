@@ -26,9 +26,7 @@
                 </div>
                 <div class="experience__job">
                     <ul>
-                        {{ range .Details }}
-                        <li class="experience__bullet">{{ . | safeHTML }}</li>
-                        {{ end }}
+                        <li class="experience__bullet">{{ .Description | safeHTML }}</li>
                     </ul>
                     <div class="experience__badges">
                         <ul>
