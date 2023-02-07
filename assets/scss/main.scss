@@ -37,5 +37,6 @@ $pages: {{ .Site.Params.pages | default 1}} !default;
 @import "components/404";
 @import "components/certifications";
 @import "components/travel";
+@import "components/projects";
 
 @import "custom";
