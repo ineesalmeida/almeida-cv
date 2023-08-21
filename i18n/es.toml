@@ -1,0 +1,23 @@
+[profile]
+other = "Perfil"
+
+[experience]
+other = "Experiencia"
+
+[education]
+other = "Educación"
+
+[references]
+other = "Referencias"
+
+[skills]
+other = "Habilidades"
+
+[languages]
+other = "Idiomas"
+
+[diplomas]
+other = "Certificaciones"
+
+[interests]
+other = "Intereses"
