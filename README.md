@@ -30,6 +30,11 @@ git submodule add https://github.com/ineesalmeida/almeida-cv.git themes/almeida-
 ```
 Replace the files in your site root's directory with the ones in `themes/almeida-cv/exampleSite`.
 
+Tell hugo to use `almeida-cv` theme.
+```sh
+echo "theme = 'almeida-cv'" >> hugo.toml
+```
+
 ## Start Hugo in development mode
 ```
 hugo server -D
