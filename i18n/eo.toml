@@ -1,0 +1,23 @@
+[profile]
+other = "Resumo"
+
+[experience]
+other = "Sperteco"
+
+[education]
+other = "Edukiteco"
+
+[references]
+other = "Referencoj"
+
+[skills]
+other = "Lertoj"
+
+[languages]
+other = "Lingvoj"
+
+[diplomas]
+other = "Diplomoj"
+
+[interests]
+other = "Hobioj"
