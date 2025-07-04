@@ -14,6 +14,7 @@ $color-right-col-heading-text: {{ .Site.Params.colorRightColumnHeadingText | def
 $color-right-col-body-text: {{ .Site.Params.colorRightColumnBodyText | default "#666" }} !default;
 $color-right-col-icon-primary: {{ .Site.Params.colorRightColumnIconPrimary | default "#fff" }} !default;
 $color-right-col-icon-background: {{ .Site.Params.colorRightColumnIconBackground | default "#e3bfb8" }} !default;
+$footer-note: {{ .Site.Params.footerNote | default "2020 © by Inês Almeida   |   ines-almeida.com" }} !default;
 
 $pages: {{ .Site.Params.pages | default 1}} !default;
 
