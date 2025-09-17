@@ -10,7 +10,7 @@
 
         @media screen {
             &::after {
-                content: '2020 © by Inês Almeida   |   ines-almeida.com';
+                content: $footer-note;
                 height: 4rem;
                 width: 100%;
                 position: absolute;
