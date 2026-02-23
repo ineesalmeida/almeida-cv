@@ -42,6 +42,15 @@ body {
         margin: 0;
         size: A4;
     }
+
+    a,
+    a:link,
+    a:visited {
+      background: transparent !important;
+      color: unset;
+      font-weight: 700;
+      text-decoration: underline !important;
+    }
 }
 
 ::selection {
